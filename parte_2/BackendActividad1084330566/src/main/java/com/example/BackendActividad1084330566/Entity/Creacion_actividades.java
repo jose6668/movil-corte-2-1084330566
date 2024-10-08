@@ -10,7 +10,7 @@ public class Creacion_actividades {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long codigo_actividad;
+    private Long id;
 
     @Column(name = "fecha", nullable = false)
     private LocalDateTime fecha;
@@ -21,12 +21,12 @@ public class Creacion_actividades {
     @Column(name = "direccion", length = 50, nullable = false)
     private String direccion;
 
-    public Long getCodigo_actividad() {
-        return codigo_actividad;
+    public Long getId() {
+        return id;
     }
 
-    public void setCodigo_actividad(Long codigo_actividad) {
-        this.codigo_actividad = codigo_actividad;
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public LocalDateTime getFecha() {

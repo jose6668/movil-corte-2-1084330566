@@ -21,20 +21,20 @@ public class Creacion_actividadesService implements ICreacion_actividadesService
     }
 
     @Override
-    public Optional<Creacion_actividades> FindById(Long codigo_actividad) {
-        return actividadesRepository.findById(codigo_actividad);
+    public Optional<Creacion_actividades> FindById(Long id) {
+        return actividadesRepository.findById(id);
     }
 
     @Override
-    public void Update(Creacion_actividades actividades, Long codigo_actividad) {
-        Optional<Creacion_actividades> us = FindById(codigo_actividad);
+    public void Update(Creacion_actividades actividades, Long id) {
+        Optional<Creacion_actividades> us = FindById(id);
 
         if (us.isEmpty()) {
-            throw new RuntimeException("Creacion_actividades no encontrado con el ID: " + codigo_actividad);
+            throw new RuntimeException("Creacion_actividades no encontrado con el ID: " + id);
         }else {
             Creacion_actividades Actual = us.get();
-            Actual.setNombre(actividades.getNombre());
             Actual.setFecha(actividades.getFecha());
+            Actual.setNombre(actividades.getNombre());
             Actual.setDireccion(actividades.getDireccion());
 
 
@@ -50,7 +50,7 @@ public class Creacion_actividadesService implements ICreacion_actividadesService
     }
 
     @Override
-    public void Delete(Long codigo_actividad) {
-        actividadesRepository.findById(codigo_actividad);
+    public void Delete(Long id) {
+        actividadesRepository.deleteById(id);
     }
 }

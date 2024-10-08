@@ -24,13 +24,13 @@ public class Creacion_actividadesController {
     }
 
     @GetMapping("/{id}")
-    public Optional<Creacion_actividades> findById(@PathVariable Long codigo_actividad) {
-        return Service.FindById(codigo_actividad);
+    public Optional<Creacion_actividades> findById(@PathVariable Long id) {
+        return Service.FindById(id);
     }
 
     @PutMapping("/{id}")
-    public void Update(@RequestBody Creacion_actividades actividades, @PathVariable Long codigo_actividad) {
-        Service.Update(actividades, codigo_actividad);
+    public void Update(@RequestBody Creacion_actividades actividades, @PathVariable Long id) {
+        Service.Update(actividades, id);
     }
 
     @PostMapping("/guardar")
@@ -39,7 +39,7 @@ public class Creacion_actividadesController {
     }
 
     @DeleteMapping("/{id}")
-    public void Delete(@PathVariable Long codigo_actividad) {
-        Service.Delete(codigo_actividad);
+    public void Delete(@PathVariable Long id) {
+        Service.Delete(id);
     }
 }
