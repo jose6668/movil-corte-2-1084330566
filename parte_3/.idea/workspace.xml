@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="68b466be-cad3-425d-a87b-a48c64a3f032" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../cam/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cam/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cam/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cam/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cam/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cam/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cam/.idea/migrations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cam/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cam/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cam/app/src/main/java/com/example/cam/crear.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cam/app/src/main/java/com/example/cam/inicio.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cam/app/src/main/java/com/example/cam/pagina.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cam/app/src/main/res/drawable/baseline_email_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cam/app/src/main/res/drawable/color.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cam/app/src/main/res/drawable/icon_key.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cam/app/src/main/res/drawable/icon_person.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cam/app/src/main/res/layout/activity_crear.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cam/app/src/main/res/layout/activity_inicio.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cam/app/src/main/res/layout/activity_pagina.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2n8kUxp4XXw24N6V4smna5ee1hD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/USER/Desktop/U/SEMESTRE 5/PROGRAMACION MOVIL/SEGUNDO CORTE/parcial/movil-corte-2-1084330566/parte_3"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="68b466be-cad3-425d-a87b-a48c64a3f032" name="Changes" comment="" />
+      <created>1728362109869</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728362109869</updated>
+    </task>
+    <servers />
+  </component>
+</project>
